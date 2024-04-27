@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "name": "book-server",
+  "version": "1.0.0",
+  "main": "book_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

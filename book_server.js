@@ -1,6 +1,6 @@
 const http = require("http");
 const server = http.createServer(requestHandler);
-const HOSTNAME = "localhost";
+const HOSTNAME = "0.0.0.0";
 const PORT = process.env.PORT || 4000;
 const { getAllBooks, addBook, updateBook, deleteBooks, loanBookOut, returnBook } = require("./helpers");
 const { authenticate, createUser, authenticateWithToken } = require("./users.js");
